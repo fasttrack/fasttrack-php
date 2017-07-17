@@ -3,7 +3,7 @@
 namespace Fasttrack;
 include 'utils.php';
 
-require __DIR__ . '/../../vendor/autoload.php';
+// require __DIR__ . '/../../vendor/autoload.php';
 
 class Fasttrack {
     const VERSION = '0.1';

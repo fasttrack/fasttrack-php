@@ -22,6 +22,8 @@ composer install
 
 ```php
 <?php
+require 'vendor/autoload.php';
+
 use Fasttrack\Fasttrack;
 
 $client = new \Fasttrack\Fasttrack('your_token');
@@ -40,6 +42,8 @@ try {
 
 ```php
 <?php
+require 'vendor/autoload.php';
+
 use Fasttrack\Fasttrack;
 
 $client = new \Fasttrack\Fasttrack('your_token');
@@ -58,6 +62,8 @@ try {
 
 ```php
 <?php
+require 'vendor/autoload.php';
+
 use Fasttrack\Fasttrack;
 use Fasttrack\Exceptions;
 

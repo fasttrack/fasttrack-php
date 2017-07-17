@@ -1,0 +1,26 @@
+{
+  "name": "fasttrack/fasttrack-client",
+  "description": "This Fasttrack library enables you to request the Fasttrack API in a convenient way. For more information about the Fasttrack API please see https://api.fasttrack-intl.com",
+  "homepage": "http://github.com/fasttrack/fasttrack-php",
+  "license": "MIT",
+  "keywords": ["http", "api", "fasttrack"],
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "Fast Track",
+      "email": "info@fasttrack-intl.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+        "Fasttrack": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.3",
+    "nategood/httpful": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}

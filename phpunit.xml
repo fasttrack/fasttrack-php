@@ -1,0 +1,7 @@
+<phpunit>
+  <testsuites>
+    <testsuite name="fasttrack-php">
+      <file>tests/Fasttrack/utils.test.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>

@@ -10,7 +10,7 @@ $client = new \Fasttrack\Fasttrack('your_token');
 print_r($client);
 
 try {
-  $result = $client->getCompany('siemens.com');
+  $result = $client->getCompany('example.com');
   print_r($result);
 } catch (\Fasttrack\Exceptions\UnauthorizedException $e) {
   print_r('UnauthorizedException');

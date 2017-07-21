@@ -25,13 +25,13 @@ class Fasttrack {
       $this->opts = $opts;
     }
 
-    private function __generateUrl($url, $opts) {
+    private function __generate_url($url, $opts) {
       return self::URL . $url . '?' . http_build_query($opts);
     }
 
     // Request to the API endpoint
     private function __getUrl($url, $opts) {
-      $response = \Httpful\Request::get($this->__generateUrl($url, $opts))
+      $response = \Httpful\Request::get($this->__generate_url($url, $opts))
         ->expectsJson()
         ->sendsJson()
         ->addHeaders(array(

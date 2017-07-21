@@ -14,6 +14,7 @@ try {
   print_r($result);
 } catch (\Fasttrack\Exceptions\UnauthorizedException $e) {
   print_r('UnauthorizedException');
+  print_r($e);
 }
 
 ?>

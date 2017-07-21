@@ -3,4 +3,7 @@
 namespace Fasttrack\Exceptions;
 
 class NoResultException extends \Exception {
+  public function __construct($message = 'no result matching your request', $code = 0, Exception $previous = null) {
+    parent::__construct($message, $code, $previous);
+  }
 }

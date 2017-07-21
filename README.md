@@ -82,14 +82,14 @@ try {
 
 ### Available exceptions
 
-- BadParametersException
-- BadRequestException
+- BadParametersException: send parameters through GET method
+- BadRequestException: request is malformed
 - InternalServerException
-- InvalidVersionException
-- MethodNotAllowedException
-- NoResultException
-- NotAcceptableException
-- NotFoundException
-- TooManyRequestsException
-- UnauthorizedException
-- VersionRequiredException
+- InvalidVersionException: API version is invalid
+- MethodNotAllowedException: you tried to access an endpoint with an invalid method
+- NoResultException: no result matching your request
+- NotAcceptableException: you requested a format that is not json
+- NotFoundException: specified endpoint could not be found
+- TooManyRequestsException: you made too many requests on the API in a short period of time
+- UnauthorizedException: API key is wrong
+- VersionRequiredException: send API version in the HTTP Accept headers

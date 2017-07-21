@@ -51,8 +51,8 @@ $client = new \Fasttrack\Fasttrack('your_token');
 try {
   $company = $client->getContact('example@example.com');
   print_r($company);
-} catch err {
-  print_r(err);
+} catch (Exception $err) {
+  print_r($err);
 }
 
 ?>
